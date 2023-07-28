@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    position: relative;
+}
+
+nav{
+    display: flex;
+    margin: auto;
+    width: 94.5%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    color: #2d2e32;
+    justify-content: space-between;
+}
+
+/* logo */
+.brand{
+    list-style: none;
+    display: inline-block;
+    font-weight: 700;
+    font-size: larger;
+    padding-top: 25px;
+}
+/* logo */
+
+/* navbar items */
+nav .menu ul li{
+    display: inline-block;
+    font-weight: 600;
+    font-size:medium;
+    padding-top: 26px;
+    margin-right: 17px;
+    transform: scale(1.1, 1.1);
+}
+nav .menu ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #2d2e32;
+    transition: 300ms ease-in-out;
+}
+nav .menu ul li a:hover {
+    color: rgb(0, 132, 255) !important;
+  }
+nav .brand a{
+    list-style: none;
+    text-decoration: none;
+    color: #2d2e32;
+    transition: 300ms ease-in-out;
+}
+nav .brand a:hover {
+    color: rgb(0, 132, 255) !important;
+  }
+/* navbar items */
+
+/* the content */
+.contentcontainer{
+    width: 100%;
+    background-color: #f9f9f9;
+    height: 91vh;
+    display: flex;
+}
+/* the content */
+.heromain{
+    width: 980px;
+    height: 320px;
+    position: absolute;
+    top: 250px;
+    left: 480px;
+    /* background-color: aqua; */
+}
+.herotext{
+    width: 60%;
+    height: 160px;
+    margin-top: 30px;
+    font-weight: 900;
+    font-size: 55px;
+    color: #2d2e32;
+    /* background-color: red; */
+}
+.herotext img{
+    width: 55px;
+    margin-left: 10px;
+    margin-bottom: -8px;
+}
+.heroalt{
+    font-size: large;
+    color: #47484b;
+    width: 60%;
+    margin-top: 20px;
+}
+
+.socials{
+    margin-top: 20px;
+    font-size: 27px;
+    gap: 15px;
+    display: flex;
+}
+.socials a{
+    color: #47484b;
+    transition: 300ms ease-in-out;
+}
+.socials a:hover{
+    color: rgb(0, 132, 255);
+}
+.skills p{
+    border-right: 2px solid rgba(45,46,50,.5);
+    color: #2d2e32;
+    font-family: "Mulish",sans-serif;
+    font-weight: bold;
+    margin-right: 3rem;
+    padding-right: 1.5rem;
+}
+.skills {
+    align-items: center;
+    top: 650px;
+    color: #767676;
+    display: flex;
+    font-size: 17px;
+    left: 475px;
+    position: absolute;
+    width: 700px;
+    height: 65px;
+}
+
+.skillcontainer{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    border-radius: 180px;
+    align-items: center;
+    display: flex;
+    margin-left: 30px;
+}
+.skillcontainer img{
+    margin:8px;
+    padding: 5px;
+}
+.heropfp img{
+    width: 350px;
+    position: absolute;
+    left: 600px;
+    top: -15px;
+    box-shadow: 0 0 10px rgba(0,0,0,5);
+    border-radius: 180px;
+}
