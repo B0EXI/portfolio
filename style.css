@@ -9,7 +9,8 @@ img{
     max-width: 100%;
 }
 
-.container{
+.navcontainer{
+/* this contains the nav */
     width: 100%;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 0 10px rgba(0,0,0,0.15);
@@ -143,11 +144,15 @@ nav .brand a:hover {
     border-radius: 180px;
     align-items: center;
     display: flex;
-    margin-left: 30px;
+    margin-left: 25px;
 }
 .skillcontainer img{
     margin:8px;
     padding: 5px;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
 }
 .heropfp img{
     width: 350px;
@@ -156,4 +161,14 @@ nav .brand a:hover {
     top: -15px;
     box-shadow: 0 0 10px rgba(0,0,0,5);
     border-radius: 180px;
+}
+.python img{
+    margin-left: 10px;
+    margin-top: 13px;
+}
+.react img{
+    margin-left: 8px;
+}
+.java img{
+    margin-left: 8px;
 }
